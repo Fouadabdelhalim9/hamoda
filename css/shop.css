@@ -1,0 +1,49 @@
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+ .card {
+    width: 280px;
+    font-family: Poppins;
+    background: #ffffff;
+    margin: 30px auto;
+  }
+  .card h3{
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #262626;
+  }
+  .btnForCard {
+    width: 208px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: #1572d3;
+  }
+  span {
+    color: #959595;
+  }
+  /* footer */
+  .footer {
+    background-color: gray;
+    color: white;
+    padding: 40px 0;
+  }
+  .footer a {
+    color: #ddd;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  .form-control {
+    border-radius: 5px;
+  }
